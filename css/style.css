@@ -10,5 +10,27 @@ header{
     padding: 15px 20px;
     justify-content: space-between;
     align-items: center;
-    background-color: salmon;
+    background-color: rgba(250, 128, 114, 0.582);
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 2.1875rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.TITULO h1{
+    padding: 10px;
+    text-align: center;
+}
+
+.TITULO button{
+    margin-left: 45%;
+width: 10%;
+
 }

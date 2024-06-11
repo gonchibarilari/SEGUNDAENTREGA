@@ -73,7 +73,61 @@ header h1 {
     }
 }
 /*                      -----------BUTTON COMPRA */
-.TITULO button {
+
+
+
+.gridInicio{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(5,1fr);    
+}
+
+
+.seccionuno{
+    grid-column-start: 1 ; grid-column-end: 2;
+    grid-row-start: 1; grid-row-end: 3;
+}
+.secciondos{
+    grid-column-start: 2 ; grid-column-end: 3 ;
+    grid-row-start: 3; grid-row-end: 5;
+}
+.secciontres{
+    grid-column-start: 1 ; grid-column-end: 2 ;
+    grid-row-start: 4; grid-row-end: 6;
+}
+.divuno{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;}
+
+.divuno article h2{
+    margin-top: 20px;
+}
+
+.divuno article h3{    
+    margin-top: 20px;
+}
+
+.divuno article p{
+    margin-top: 20px;
+}
+.divuno article a button{
+    margin-top: 20px;
+    
+}
+
+body{
+    background-image: rosybrown;
+}
+
+
+
+
+
+
+/* .TITULO button {
     width: 100%;
     letter-spacing: .125rem;
     text-transform: uppercase;
@@ -192,7 +246,7 @@ h2{
         width: 620px;
         
     }
-}
+} */
 
 /* PROFILE MAIN ------------ */
 

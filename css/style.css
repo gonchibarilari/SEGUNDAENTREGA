@@ -11,7 +11,7 @@
 /* HEADER NAV BAR */
 
 
-header{
+header {
     display: flex;
     padding: .9375rem 1.25rem;
     justify-content: space-between;
@@ -31,14 +31,14 @@ nav ul {
     gap: 35px;
 }
 
-nav ul li  {
+nav ul li {
     margin-right: 20px;
     text-decoration: none;
     color: black;
     font-size: .9375rem;
 }
 
-.TITULO{
+.TITULO {
     display: flex;
     padding: 20px;
     list-style: none;
@@ -61,6 +61,7 @@ button{
 .banner button:hover{
     background-color: rgb(218, 120, 138);
 }
+
 @container header(min-width: 37.5rem) {}
 
 /* ------------HEADER QUERIES */
@@ -110,53 +111,6 @@ button{
         cursor: pointer;
     }
 }
-
-@media(max-width: 425px) {
-    .header nav {
-        display: flex; /* Ocultar lista en pantallas pequeñas */
-        flex-direction: row; /* Mostrar elementos en columna */
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        background-color: #333;
-        color: white;
-        padding: 10px;
-    }
-
-    .nav ul {
-        margin-right: 0;
-        margin-bottom: 10px;
-    }
-}
-/* @media(max-width:1024px) {
-    header {
-        justify-content: space-around;
-    }
-}
-
-@media(max-width:768px) {
-    header {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-}
-
-@media(max-width:24.6875rem) {
-    nav ul {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-} */
-
-
-
-
-/*                      -----------BUTTON COMPRA */
-
-
 
 .gridInicio {
     display: grid;
@@ -235,7 +189,8 @@ footer {
     height: 100%;
     opacity: 85%;
 }
-.redes-sociales{
+
+.redes-sociales {
     display: flex;
     flex-direction: column;
     gap: .3125rem;
@@ -244,23 +199,23 @@ footer {
     font-style: none;
 }
 
-.enlaces{
+.enlaces {
     display: flex;
     flex-direction: column;
     gap: .3125rem;
 }
 
-p::first-letter{
+p::first-letter {
     font-size: 30px;
 }
 
 
 .content1 {
     display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-height: 80vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
 }
 
 .content {
@@ -268,7 +223,8 @@ height: 80vh;
 }
 
 img {
-width: 500px;;
+    width: 500px;
+    ;
     height: auto;
 }
 
@@ -276,50 +232,41 @@ width: 500px;;
     display: flex;
     flex-direction: row;
     font-size: 1rem;
-    box-shadow: 0px 0px 20px black;
+    box-shadow: 0px 0px 20px rgb(208, 205, 205);
     padding: 10px 20px;
 
 }
+
 /* -----------CREACION DE MEDIA */
 
 @media(max-width: 600px){
-        header {
-            display: flex;
-            flex-direction: column;
-            top: 100%;
-            width: 100%;
-            background-color: #e57171;
-        }
-        .nav ul {
-            display: block;
-            cursor: pointer;
-        }
-    
+    header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #e57171;
+    }
+}
+
+    .ul-css {
+        display: flex;
     }
 
-
-    @media only screen and (max-width: 468px) {
-        .imgmedias {
-            max-width: 50%; /* Por ejemplo, ajusta el tamaño según tus necesidades */
-        }
-    }
-
-
-    @MEDIA (max-width: 45.5rem){
+    @MEDIA (max-width: 45.5rem) {
         main {
             background-color: black;
 
             background-color: #333;
 
         }
-        .divuno img{
+
+        .divuno img {
             width: 50%;
         }
     }
 
-    @media(max-width:45.5rem){
-
-        footer{
+    @media(max-width:45.5rem) {
+        footer {
             background-color: #fc5a5da9;
             display: flex;
             flex-direction: column;
@@ -327,8 +274,8 @@ width: 500px;;
     }
 
 
-    @media(max-width:26.75rem){
-        .header nav{
+    @media(max-width:26.75rem) {
+        .header nav {
             display: flex;
             background-color: black;
             flex-direction: row;
@@ -344,12 +291,43 @@ width: 500px;;
             align-items: center;
         }
     }
-    
+
     @media(max-width:24.6875rem) {
         nav ul {
             flex-direction: row;
             justify-content: center;
             align-items: center;
         }
-    } 
-    
+    }
+
+
+    .h1-conocenos {
+        display: flex;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(81, 18, 11, 0.582);
+        width: 100%;
+        height: 100%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+        color: salmon;
+    }
+
+    .main-conocenos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../images/taylor-beach-kwu9Ny5dKOE-unsplash\ \(1\).jpg);
+        background-size: cover;
+        background-position: center;
+        height: 200px;
+    }
+
+    .div-conocenos {
+        display: flex;
+        text-align: center;
+        text-decoration: none;
+        font-size: 35px;
+        padding: 20px;
+    }

@@ -297,11 +297,7 @@ width: 500px;;
     
     }
 
-    @media(max-width: 600px){
-        footer{
 
-        }
-    }
     @media only screen and (max-width: 468px) {
         .imgmedias {
             max-width: 50%; /* Por ejemplo, ajusta el tamaño según tus necesidades */
